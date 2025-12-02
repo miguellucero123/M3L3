@@ -1,0 +1,13 @@
+.main-footer {
+    background-color: $dark;
+    color: $white;
+    padding: $spacing-lg 0;
+    text-align: center;
+    margin-top: $spacing-lg;
+
+    p {
+        margin: 0;
+        font-size: 0.9rem;
+        opacity: 0.7;
+    }
+}

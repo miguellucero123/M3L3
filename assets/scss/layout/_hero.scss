@@ -1,0 +1,24 @@
+.hero {
+    background: linear-gradient(135deg, $primary-color, $secondary-color);
+    color: $white;
+    padding: 100px 0;
+    text-align: center;
+
+    .container {
+        max-width: $desktop;
+        margin: 0 auto;
+        padding: 0 $spacing-md;
+    }
+
+    &-title {
+        font-size: 3rem;
+        margin-bottom: $spacing-md;
+        color: $white;
+    }
+
+    &-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: $spacing-lg;
+        opacity: 0.9;
+    }
+}
