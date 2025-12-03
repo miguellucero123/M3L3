@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.box {
+    padding: 15px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Box 1: Top Left, Dotted Orange */
+.box-1 {
+    border: 2px dotted orange;
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    color: #2e7d32; /* Greenish text as seen in image? No, looks black/dark grey. Let's stick to default or dark grey. Actually image text is greenish in box 1? Hard to tell, looks like standard black/grey. Wait, Box 1 text is GREEN in the image? Let me look closer. Ah, the border is orange. The text looks standard. I will keep it black. */
+    color: #333;
+}
+
+/* Box 2: Middle Right, Solid Blue */
+.box-2 {
+    border: 2px solid blue;
+    width: 45%;
+    float: right;
+    margin-top: 100px; /* Push down to simulate the staggered look */
+    font-style: italic; /* Text looks italic in the image */
+}
+
+/* Box 3: Bottom Left, Thick Black */
+.box-3 {
+    border: 4px solid black;
+    width: 45%;
+    float: left;
+    clear: left; /* Clear the float from box 1 */
+    margin-top: 50px; /* Spacing from box 1 area */
+}
+
+/* Box 4: Bottom, Full Width, Red Border */
+.box-4 {
+    border: 1px solid #e91e63; /* Pinkish red */
+    width: 100%;
+    clear: both; /* Clear all floats */
+    margin-top: 30px;
+    font-size: 0.9em; /* Slightly smaller? */
+}
